@@ -3,14 +3,14 @@ import axios from "axios";
 
 export const getCategory = async() => {
     return await axios.get(
-      "https://online-survey-api-production.up.railway.app/api/category/"
+      "https://online-survey-api-production-69a1.up.railway.app/api/category/"
     );
 }
 
 
 export const getCategoryById = async (id) => {
   return await axios.get(
-    `https://online-survey-api-production.up.railway.app/API/category/${id}`
+    `https://online-survey-api-production-69a1.up.railway.app/API/category/${id}`
   );
 };
 
@@ -27,7 +27,7 @@ export const inputQuestions = async (
   pertanyaan_5
 ) => {
   return await axios.post(
-    "https://online-survey-api-production.up.railway.app/API/questions",
+    "https://online-survey-api-production-69a1.up.railway.app/API/questions",
     {
       judul: judul,
       nama: nama,

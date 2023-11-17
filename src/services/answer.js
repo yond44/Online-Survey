@@ -2,13 +2,13 @@ import axios from "axios";
 
 export const getAnswers = async () => {
   return await axios.get(
-    "https://online-survey-api-production.up.railway.app/API/answer"
+    "https://online-survey-api-production-69a1.up.railway.app/API/answer"
   );
 };
 
 export const getAnswersById = async (id) => {
   return await axios.get(
-    `https://online-survey-api-production.up.railway.app/API/answer/${id}`
+    `https://online-survey-api-production-69a1.up.railway.app/API/answer/${id}`
   );
 };
 
@@ -25,7 +25,7 @@ export const inputAnswer = async (
   Q5
 ) => {
   return await axios.post(
-    "https://online-survey-api-production.up.railway.app/API/answer",
+    "https://online-survey-api-production-69a1.up.railway.app/API/answer",
     {
       id: id,
       judul: judul,
@@ -42,7 +42,7 @@ export const inputAnswer = async (
 
 export const deleteAnswers = async (id) => {
   return await axios.delete(
-    `https://online-survey-api-production.up.railway.app/API/answer/${id}`
+    `https://online-survey-api-production-69a1.up.railway.app/API/answer/${id}`
   );
 };
 
