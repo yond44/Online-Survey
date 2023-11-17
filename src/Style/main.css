@@ -1,0 +1,152 @@
+@import 'table.css';
+@import 'input.css';
+
+body{
+    background-color: #e4e4e4;
+}
+
+
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.middle-content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.justify{
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.max-text-W {
+  max-width: 200px;
+}
+
+.button{
+  margin: 0 auto;
+  color: #fff;
+  background: #0b0e21;
+  width: 300px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 14px 75px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.answer-box{
+     width: 600px; 
+     height: 80px;
+}
+.text-t{
+  text-transform: capitalize;
+}
+
+.text-padding{
+    padding-top: 50px;
+    padding-left: 190px;
+}
+
+.text-size {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.link {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.padding{
+    padding-top: 30px;
+}
+
+.right {
+    padding-right: 10px;
+}
+
+.margin{
+    margin-top: 30px;
+}
+
+.margin-bt{
+  margin-bottom: 30px;
+}
+ 
+
+
+.button2{
+  margin: 0 auto;
+  color: #fff;
+  background: #0b0e21;
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.button3{
+  margin: 0 auto;
+  color: #fff;
+  background: #0b0e21;
+  width: 80px;
+  height: 20px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.add{
+    color: white;
+}
+
+
+.app {
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.filter-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#category-list {
+  padding: 5px;
+}
+.sport-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+
