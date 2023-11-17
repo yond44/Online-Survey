@@ -2,9 +2,7 @@ import axios from "axios";
 
 
 export const getCategory = async() => {
-    return await axios.get(
-      "https://online-survey-api-production.up.railway.app/api/category/"
-    );
+    return await axios.get("http://localhost:3001/api/category/");
 }
 
 
