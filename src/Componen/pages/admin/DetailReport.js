@@ -12,28 +12,23 @@ function Detail() {
 
 
 
-  const [error, setError] = useState("");
+
 
 
     const getQuestion = async () => {
-      try {
+
         const response = await getQuestions();
         console.log(response.data);
         setQuestions(response.data);
-      } catch (error) {
-        console.log(error);
-      }
+
     };
 
   useEffect(() => {
     const getAnsById = async () => {
-      try {
         const response = await getAnswersById(id);
-        console.log(response.data);
         setData(response.data);
-      } catch (error) {
-        console.log(error);
-      }
+
+      
     };
     getAnsById();
     getQuestion();
@@ -53,7 +48,6 @@ function Detail() {
               <h1>Jawaban Survey {data.nama}</h1>
             </div>
             <div className="error">
-              <p>{error}</p>
             </div>
             <div>
               <label htmlFor="judul">

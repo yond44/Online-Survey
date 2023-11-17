@@ -45,7 +45,7 @@ function Edit() {
         pertanyaan_5,
          id
       );
-
+        refresh()
     } catch (error) {
       if (error.response) {
         setError(error.response.data.error);
